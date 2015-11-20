@@ -1,0 +1,12 @@
+
+
+PLAYER             QUEEN
+  X | Y              X | Y
+---------          ---------
+| # | # |          | # | # |
+---------          ----------
+
+[submit button]
+
+
+figure out how to center forms on bootstrap. change the width of selection columns, and center submit button underneath the two form group (columns?).

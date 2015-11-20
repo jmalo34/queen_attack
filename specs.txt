@@ -1,0 +1,15 @@
+SPEC 1:  The queen can attack if X coordinates are identical (in line of sight horizontally)
+Input:  Player (4, 5), Queen (4, 8)
+Output:  TRUE
+
+SPEC 2:  The queen can attack if Y coordinates are identical (in line of sight vertically)
+Input:  Player (3, 7), Queen (6, 7)
+Output:  TRUE
+
+SPEC 3:  The queen can attack if her X and Y coordinates are identical in their difference from those of the Player (in line of sight horizontally)
+Input:  Player (4, 3), Queen (2, 5)
+Output:  TRUE
+
+SPEC 4:  If a user has not completed all 4 form fields, and error message is displayed
+Input:  Player (2, 6), Queen (1, NULL)
+Output:  "You have submitted insufficient information, so we are unable to give you a result at this time. Return to the homepage, input entries for all 4 coordinates, and try again."
